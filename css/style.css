@@ -1,0 +1,39 @@
+.vertical-bar{
+    background-color: #32373e;
+    color: white;
+    padding: 10px;
+}
+.image{
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h1{
+    color: #32373e;
+}
+a:link{
+    color: #999b9f;
+}
+a:hover{
+    color: #9f82b7;
+}
+a:visited {
+    color: #ad94c1;
+}
+.image1{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.back {
+   background-image: url("../img/featured-image-snippets-1-690x362.png");
+   background-position: 100%;
+    background-repeat: no-repeat;
+    background-color: #31373d;
+    color: white;
+   }
+/*html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}*/
