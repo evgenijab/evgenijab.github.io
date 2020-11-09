@@ -1879,10 +1879,10 @@ a[data-toggle="tooltip"],
 }
 /* line 369, ../sass/_header.scss */
 .site-header .header-menu .nav li {
-  float: left;
+  float: none;
   padding: 0 15px;
   position: static;
-  width: 50%;
+  /*width: 50%;*/
 }
 @media (max-width: 767px) {
   /* line 369, ../sass/_header.scss */
@@ -2062,7 +2062,7 @@ a[data-toggle="tooltip"],
 }
 /* line 520, ../sass/_header.scss */
 .site-header.second-site-header .header-menu .navbar-collapse .nav {
-  padding-top: 70px;
+  padding-top: 30px;
 }
 /* line 530, ../sass/_header.scss */
 .site-header.site-header-black .navbar .navbar-toggle .icon svg path {
@@ -2859,6 +2859,12 @@ body:not(.touch-device) #fp-nav.mini ul li:hover a span {
   .fp-slidesNav.bottom {
     bottom: 10px;
   }
+  .filter-elements{
+  text-align: center;
+}
+.filter-elements{
+  text-align: none;
+}
 }
 /* line 328, ../sass/_one-page.scss */
 .fp-slidesNav ul li {
